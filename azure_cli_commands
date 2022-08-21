@@ -1,0 +1,6 @@
+Login : az account list
+List of Subscriptions : az account list
+Set Active Subscription : az account set -s <Subscription Id>
+Create A Resouce Group : az group create --name <resource group name> -- location <location>
+Create A Resource using arm template file : az deployment group create --resource-group rg-tulpa-practice --template-file azuredeploy.parameters.json --parameters azuredeploy.parameters.json
+To List all Resource Groups : az resource list
